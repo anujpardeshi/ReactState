@@ -2,7 +2,8 @@ import { useState } from "react"
 
 export default function LudoBoard(){
     let [moves, setMoves] = useState ({blue: 0, red: 0, yellow:0, green:0})
-    
+    let [arr, setArr] = useState(arr)
+
     let updateBlue = ()=>{
         console.log(`moves.blue = ${moves.blue}`);
         setMoves((prevMoves) => ({

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Counter(){
+export default function Counter111(){
     let [count, setCount] = useState(0);
     console.log("component is rerender!");
     console.log(`count = ${count}`);
