@@ -7,17 +7,20 @@ import LikeButton from './LikeButton'
 import LudoBoard from './ludoBoard'
 import ThemeChange from './ThemeChange'
 import LCM from './LCM'
+import Counter111 from './Counter111'
+import LCMM from './LCMM.JSX'
 
 function App() {
   return (
     <>
     {/* <h1>States in React</h1> */}
-    {/* <Counter /> */}
+    <Counter111/>
     {/* <LikeButton/> */}
     {/* <LudoBoard/> */}
     {/* <TodoList/> */}
     {/* <ThemeChange/> */}
-    <LCM/>
+    {/* <LCM/> */}
+    <LCMM/>
     </>
   )
 }
